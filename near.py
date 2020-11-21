@@ -2,7 +2,7 @@
 
 import os
 
-command_line_command = 'near validators current'
+command_line_command = 'NEAR_ENV=mainnet near validators current'
 
 print('Blockchain: NEAR Protocol (NEAR)')
 print('Election mechanism: Thresholded Proof-of-Stake (TPoS)')
